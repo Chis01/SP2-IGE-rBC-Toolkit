@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: 'Please cite the specific archived software release and acknowledge the external PSI SP2 Toolkit separately.'
+title: 'SP2 IGE rBC Toolkit: Timed SP2 Analysis of Refractory Black Carbon in Snow and Ice'
+type: software
+version: 2.1.0-rc.1
+authors:
+  - family-names: 'Riveros Lizana'
+    given-names: 'Christian Alonso'
+keywords:
+  - refractory black carbon
+  - single particle soot photometer
+  - Igor Pro
+  - cryosphere
+  - snow and ice
+  - AquaDAG
+abstract: 'Research-oriented Igor Pro extension for timed SP2 rBC concentration processing, AquaDAG recovery calibration, and optional incandescence-derived particle diagnostics. The particle module requires additional validation before general release.'
+# Confirm author attribution, release date, version and DOI before creating an official GitHub release.
+# Add repository-code and DOI fields only after the final public URLs have been created.

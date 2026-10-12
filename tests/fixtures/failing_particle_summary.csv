@@ -1,0 +1,3 @@
+SampleID,BHBL_MeanMass_fg,BHBL_MedianMass_fg,BHBL_D10N_nm,BHBL_D50N_nm,BHBL_D90N_nm,BHBL_D10M_nm,BHBL_D50M_nm,BHBL_D90M_nm,BBHG_D50N_nm,BBHG_D50M_nm
+synthetic_broken_A,1.0,3.5,180,88,60,220,130,90,87,88
+synthetic_broken_B,1.1,4.1,170,90,55,215,128,87,95,90

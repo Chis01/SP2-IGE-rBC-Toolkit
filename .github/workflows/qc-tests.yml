@@ -1,0 +1,19 @@
+name: CSV mathematical sanity checks
+on:
+  push:
+  pull_request:
+jobs:
+  synthetic-fixture-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python checker accepts synthetic valid data
+        run: python3 tests/validate_particle_csv.py tests/fixtures/passing_particle_summary.csv
+      - name: Python checker rejects intentionally incorrect data
+        shell: bash
+        run: |
+          if python3 tests/validate_particle_csv.py tests/fixtures/failing_particle_summary.csv; then
+            echo 'ERROR: inconsistent synthetic data were incorrectly accepted'
+            exit 1
+          fi
+          echo 'Expected failure detected'

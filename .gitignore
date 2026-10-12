@@ -1,0 +1,33 @@
+# Raw laboratory acquisition data and original instrument experiments
+*.sp2b
+*.pxp
+*.pxp.lock
+*.pxp~
+*.sp2b.gz
+*.sp2b.zip
+
+# Confidential or large measured products (override only after permissions review)
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.h5
+*.hdf5
+*.log
+
+# Temporary and editor state
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+
+# Archive/build outputs
+*.zip
+*.tar
+*.tar.gz

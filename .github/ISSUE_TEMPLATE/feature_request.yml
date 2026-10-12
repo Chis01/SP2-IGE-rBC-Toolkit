@@ -1,0 +1,18 @@
+name: Scientific feature request
+description: Propose an explicitly testable analysis addition
+labels: [enhancement]
+body:
+  - type: textarea
+    id: scientific
+    attributes:
+      label: Scientific purpose and definition
+      description: Specify inputs, units, output equations, calibration dependencies, uncertainty, and validation criteria.
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Proposed acceptance tests
+      description: Include normal cases, edge cases and compatibility tests.
+    validations:
+      required: true

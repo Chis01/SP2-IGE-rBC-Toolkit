@@ -1,0 +1,25 @@
+name: Scientific or software bug
+description: Report reproducible compilation, calibration, QC or numerical problems
+labels: [bug]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem and expected result
+      description: Include the affected function, column/wave, units, and expected physical or numerical behavior.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Environment
+      placeholder: Igor Pro 6.37; PSI SP2 Toolkit 4.111; instrument/calibration ID
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps and independent checks
+      description: Please use synthetic/authorized data only, not proprietary raw measurements.
+    validations:
+      required: true
