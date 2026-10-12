@@ -1,5 +1,9 @@
 # SP2 IGE rBC Toolkit
 
+<p align="center">
+  <img src="docs/images/toolkit_home.png" alt="SP2 IGE rBC Toolkit interface" width="900">
+</p>
+
 **Time-resolved refractory black carbon analysis for melted snow and ice using Igor Pro and the PSI SP2 Toolkit**
 
 > **Research preview — v2.1.0-rc.1.** The current source has documented instrument-specific dependencies and uncompleted particle-statistics validation. **Do not interpret this repository as a fully validated analytical method or a turnkey installation.**
