@@ -98,3 +98,6 @@ This repository is being prepared for public release. **A copyright/third-party 
 ## Disclaimer
 
 This software supports scientific analysis; it does not certify instrumental performance or substitute for laboratory QA/QC. Calibrations, valid particle-size ranges, nebulization recovery, sample preparation, and uncertainty must be reported independently in scientific work.
+## Cite
+## DOI
+https://doi.org/10.5281/zenodo.24315491
